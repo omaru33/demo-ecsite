@@ -1,0 +1,30 @@
+<template>
+  <div class="container">
+    <div class="image"><img src="../../../public/images/sozai/104977.jpg"></div>
+    <div class="discription">
+      <span class="name">{{ this.$store.state.products[0].name }}</span>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0;
+
+}
+.discription {
+  width: 50%;
+}
+.name {
+  justify-content: center;
+  text-align: center;
+}
+</style>
